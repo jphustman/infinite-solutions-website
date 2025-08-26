@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Solutions, LLC | Technical Services & Windshield Repair | Juneau, Alaska</title>
+    <meta name="description" content="Infinite Solutions, LLC provides professional technical services and windshield repair in Juneau, Alaska. Established business serving the Southeast Alaska region.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .company-name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .company-tagline {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        /* Main Content */
+        main {
+            padding: 3rem 0;
+        }
+
+        .about-section {
+            background: white;
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+
+        .about-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Services Grid */
+        .services-section {
+            margin-bottom: 3rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .service-card.featured {
+            border: 3px solid #3498db;
+            transform: scale(1.02);
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+
+        .service-description {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+
+        .service-note {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Windshield Repair CTA */
+        .windshield-cta {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            padding: 3rem;
+            border-radius: 10px;
+            text-align: center;
+            margin: 3rem 0;
+        }
+
+        .cta-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            transition: background 0.3s;
+            margin: 0 10px 10px 0;
+        }
+
+        .cta-button:hover {
+            background: #c0392b;
+        }
+
+        .cta-secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+
+        .cta-secondary:hover {
+            background: white;
+            color: #3498db;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: #2c3e50;
+            color: white;
+            padding: 3rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .contact-item h3 {
+            color: #3498db;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #1a252f;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .company-name {
+                font-size: 2rem;
+            }
+
+            .about-section {
+                padding: 2rem;
+            }
+
+            .windshield-cta {
+                padding: 2rem;
+            }
+
+            .cta-title {
+                font-size: 1.5rem;
+            }
+
+            .cta-button {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="company-name">Infinite Solutions, LLC</h1>
+            <p class="company-tagline">Professional Technical Services | Juneau, Alaska</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h2 class="section-title">About Our Company</h2>
+            <div class="about-content">
+                <p>Infinite Solutions, LLC is an established technical services company based in Juneau, Alaska. Our business combines specialized expertise in enterprise-level database and server administration with practical consumer services for the Southeast Alaska community.</p>
+
+                <p>Founded with a commitment to delivering reliable, professional solutions, we serve both commercial clients requiring sophisticated technical infrastructure support and individual customers needing quality automotive glass repair services.</p>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3 class="service-title">Technical Consulting</h3>
+                    <p class="service-description">Enterprise database administration, server management, and technical infrastructure consulting for established business relationships.</p>
+                    <p class="service-note">Services provided through existing client partnerships and referral networks.</p>
+                </div>
+
+                <div class="service-card featured">
+                    <h3 class="service-title">Windshield Repair</h3>
+                    <p class="service-description">Professional rock chip and crack repair using Delta Kit certified equipment. Mobile service available throughout the Juneau area with insurance claim support.</p>
+                    <p class="service-note">Now accepting new customers - contact us for immediate service.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="windshield-cta">
+            <h2 class="cta-title">Need Windshield Repair?</h2>
+            <p class="cta-subtitle">Professional, mobile windshield repair service throughout Juneau<br>Insurance claims welcome • Lifetime warranty • Same-day service available</p>
+            <!-- <a href="tel:907-XXX-XXXX" class="cta-button">Call for Service</a> -->
+            <a href="mailto:contact@infinitesolutionsak.com" class="cta-button cta-secondary">Email Quote Request</a>
+        </section>
+
+        <section class="contact-section">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-info">
+              <!--                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>(907) XXX-XXXX</p>
+                </div>
+              -->
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>contact@infinitesolutionsak.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Service Area</h3>
+                    <p>Juneau & Southeast Alaska</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Business</h3>
+                    <p>Licensed LLC<br>Established Technical Services</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Infinite Solutions, LLC. All rights reserved.</p>
+            <p>Licensed & Insured | Serving Southeast Alaska</p>
+        </div>
+    </footer>
+</body>
+</html>
