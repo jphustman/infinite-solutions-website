@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Juneau Rock Chip Repair | Infinite Solutions, LLC</title>
+    <meta name="description" content="Contact Juneau Rock Chip Repair for professional windshield repair services. Upload photos of your damage for quick assessment.">
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: 'Arial', sans-serif;
+          line-height: 1.6;
+          color: #333;
+          background-color: #f8f9fa;
+        }
+
+        .container {
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+
+        header {
+          background: linear-gradient(135deg, #2c3e50, #3498db);
+          color: white;
+          text-align: center;
+          padding: 2rem 0;
+          margin-bottom: 2rem;
+        }
+
+        .logo {
+          font-size: 1.8rem;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+
+        .tagline {
+          font-size: 1.1rem;
+          opacity: 0.9;
+        }
+
+        .form-container {
+          background: white;
+          padding: 2rem;
+          border-radius: 10px;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+          margin-bottom: 2rem;
+        }
+
+        .form-title {
+          font-size: 2rem;
+          color: #2c3e50;
+          margin-bottom: 1rem;
+          text-align: center;
+        }
+
+        .form-subtitle {
+          color: #666;
+          text-align: center;
+          margin-bottom: 2rem;
+        }
+
+        .form-group {
+          margin-bottom: 1.5rem;
+        }
+
+        .form-row {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 0.5rem;
+          font-weight: bold;
+          color: #2c3e50;
+        }
+
+        .required {
+          color: #e74c3c;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+          width: 100%;
+          padding: 12px;
+          border: 2px solid #ddd;
+          border-radius: 5px;
+          font-size: 1rem;
+          transition: border-color 0.3s;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+          outline: none;
+          border-color: #3498db;
+        }
+
+        textarea {
+          height: 120px;
+          resize: vertical;
+        }
+
+        .file-upload {
+          border: 2px dashed #3498db;
+          border-radius: 5px;
+          padding: 2rem;
+          text-align: center;
+          background: #f8f9fa;
+          transition: background-color 0.3s;
+        }
+
+        .file-upload:hover {
+          background: #e3f2fd;
+        }
+
+        .file-upload input[type="file"] {
+          display: none;
+        }
+
+        .upload-label {
+          cursor: pointer;
+          color: #3498db;
+          font-weight: bold;
+        }
+
+        .upload-info {
+          margin-top: 0.5rem;
+          font-size: 0.9rem;
+          color: #666;
+        }
+
+        .checkbox-group {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+          width: auto;
+        }
+
+        .submit-btn {
+          background: linear-gradient(135deg, #3498db, #2980b9);
+          color: white;
+          padding: 15px 30px;
+          border: none;
+          border-radius: 5px;
+          font-size: 1.1rem;
+          font-weight: bold;
+          cursor: pointer;
+          width: 100%;
+          transition: transform 0.3s;
+        }
+
+        .submit-btn:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+
+        .contact-info {
+          background: #2c3e50;
+          color: white;
+          padding: 2rem;
+          border-radius: 10px;
+          text-align: center;
+        }
+
+        .contact-item {
+          margin-bottom: 1rem;
+        }
+
+        .contact-item:last-child {
+          margin-bottom: 0;
+        }
+
+        .contact-item h3 {
+          color: #3498db;
+          margin-bottom: 0.5rem;
+        }
+
+        .back-link {
+          display: inline-block;
+          margin-bottom: 1rem;
+          color: #3498db;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        .back-link:hover {
+          text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+          .form-row {
+            grid-template-columns: 1fr;
+          }
+
+          .container {
+            padding: 10px;
+          }
+
+          .form-container {
+            padding: 1rem;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Juneau Rock Chip Repair</div>
+      <div class="tagline">Professional Mobile Windshield Repair - Infinite Solutions, LLC</div>
+    </header>
+
+    <div class="container">
+      <a href="../" class="back-link">← Back to Main Site</a>
+
+      <div class="form-container">
+        <h1 class="form-title">Request Rock Chip Repair Service</h1>
+        <p class="form-subtitle">Fill out this form to request professional windshield repair service. We'll respond within 24 hours with scheduling and pricing information.</p>
+
+        <!-- Replace YOUR_FORM_ID with actual Formspree form ID -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number <span class="required">*</span></label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address <span class="required">*</span></label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="year">Vehicle Year</label>
+              <input type="text" id="year" name="vehicle_year" placeholder="e.g., 2020">
+            </div>
+            <div class="form-group">
+              <label for="make">Vehicle Make</label>
+              <input type="text" id="make" name="vehicle_make" placeholder="e.g., Toyota">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="model">Vehicle Model</label>
+            <input type="text" id="model" name="vehicle_model" placeholder="e.g., Camry">
+          </div>
+
+          <div class="form-group">
+            <label for="damage_description">Describe the Damage</label>
+            <textarea id="damage_description" name="damage_description" placeholder="Please describe the size, location, and type of damage (rock chip, star break, crack, etc.)"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="location">Preferred Service Location</label>
+            <select id="location" name="service_location">
+              <option value="">Select preferred location</option>
+              <option value="my_home">My Home/Residence</option>
+              <option value="my_work">My Workplace</option>
+              <option value="downtown_juneau">Downtown Juneau</option>
+              <option value="mendenhall_valley">Mendenhall Valley</option>
+              <option value="douglas">Mendenhall Valley</option>
+              <option value="other">Other (specify in comments)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="photos">Upload Photos of Damage (Optional)</label>
+            <div class="file-upload">
+              <input type="file" id="photos" name="damage_photos" accept="image/*" multiple>
+              <label for="photos" class="upload-label">
+                Click to select photos or drag and drop
+              </label>
+              <div class="upload-info">
+                You can upload multiple photos (JPG, PNG). Max 10MB per file.
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="checkbox-group">
+              <input type="checkbox" id="insurance" name="insurance_claim">
+              <label for="insurance">This will be an insurance claim</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="comments">Additional Comments or Questions</label>
+            <textarea id="comments" name="comments" placeholder="Any additional information, special requests, or questions..."></textarea>
+          </div>
+
+          <!-- Hidden field for form identification -->
+          <input type="hidden" name="_subject" value="New Rock Chip Repair Request">
+
+          <button type="submit" class="submit-btn">Submit Request</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Direct Contact Information</h2>
+        <div class="contact-item">
+          <h3>Phone</h3>
+          <p>(907) XXX-XXXX</p>
+        </div>
+        <div class="contact-item">
+          <h3>Email</h3>
+          <p>contact@infinitesolutionsak.com</p>
+        </div>
+        <div class="contact-item">
+          <h3>Service Area</h3>
+          <p>Juneau & Southeast Alaska</p>
+        </div>
+        <div class="contact-item">
+          <h3>Response Time</h3>
+          <p>We respond to all requests within 24 hours</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Simple file upload preview
+      document.getElementById('photos').addEventListener('change', function(e) {
+        const files = e.target.files;
+        const label = document.querySelector('.upload-label');
+
+        if (files.length > 0) {
+          if (files.length === 1) {
+            label.textContent = `Selected: ${files[0].name}`;
+          } else {
+            label.textContent = `Selected: ${files.length} files`;
+          }
+        } else {
+          label.textContent = 'Click to select photos or drag and drop';
+        }
+      });
+    </script>
+  </body>
+</html>
